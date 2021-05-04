@@ -1,0 +1,107 @@
+ /* * {
+     box-sizing: border-box;
+     margin: 0;
+     border: 0;
+ } */
+
+ header {
+     background-color: #fff;
+     border-bottom: 1px solid #ccc;
+ }
+
+ header img {
+     width: 200px;
+     padding-top: 20px;
+     margin: 0 40px;
+ }
+
+ nav {
+     height: 2vh;
+ }
+
+ nav ul {
+     display: flex;
+     align-items: center;
+    justify-content: center;
+     position: relative;
+     transform: translateY(-100%);
+
+     
+ }
+
+ nav ul li {
+     margin: 30px;
+     font-size: 20px;
+     list-style: none;
+     
+     
+ }
+
+ nav button {
+     background-color: orange;
+     border: none;
+     color: #fff;
+     border-radius:5px;
+     padding: 10px 20px;
+     height: 60px;
+     width: 200px;
+     font-size: 20px;
+     font-weight: bold;
+     float: right;
+ }
+
+.jumbotron {
+    height: 65vh;
+    padding: 20px 60px;
+    font-size: 30px;
+   
+    margin: 0;
+    
+}
+
+.build {
+    height: 40vh;
+    
+    width: 95vh;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.jumbotron .enterprise {
+    border-color: blue;
+    color: blue;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;;
+}
+
+.jumbotron .for-staffing {
+    border-color: orange;
+    color: orange;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;;
+}
+
+.jumbotron-2 {
+    height: 65vh;
+    padding: 20px 60px;
+    font-size: 30px;
+   background-color: turquoise;
+    margin: 0;
+    
+}
+
+.jumbotron-2 .demo{
+    height: 80vh;
+    float: left;
+    width: 95vh;
+}
+
+.jumbotron-2 .pipling {
+    float: right;
+}
