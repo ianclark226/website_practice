@@ -29,6 +29,10 @@ p {
     max-width: 65em;
 }
 
+.spacing>*+* {
+    margin-top: var(--spacer, 2rem);
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -69,6 +73,7 @@ p {
     @supports(background-blend-mode: multiply;){
     background-image: url(./img/shoe-3.png), 
     radial-gradient(#444, #111);
+    background-blend-mode: multiply;
     }
     
     /* background-size: 10%; */
